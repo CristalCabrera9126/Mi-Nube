@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Introducción a la computación en la nube: qué es, modelos de servicio y beneficios.">
+  <title>Mi Nube | Computación en la nube</title>
+  <link rel="icon" href="img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Contenedor: todo el sitio vive aquí dentro -->
+<div class="contenedor">
+
+  <!-- Header (div) con el logo del lado izquierdo -->
+  <div class="header">
+    <div class="ancho header__inner">
+      <a href="#inicio" class="marca">
+        <img src="img/logo.svg" alt="Logo de Mi Nube" class="logo">
+        <span>Mi Nube</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav">
+          <li><a href="#que-es">¿Qué es?</a></li>
+          <li><a href="#modelos">Modelos</a></li>
+          <li><a href="#video">Video</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero con imagen de fondo -->
+    <section id="inicio" class="hero">
+      <div class="ancho">
+        <span class="etiqueta">Conceptualización de servicios en la nube</span>
+        <h1>Conoce la computación en la nube</h1>
+        <p class="hero__texto">
+          Usa servidores, almacenamiento y aplicaciones a través de internet,
+          sin comprar ni mantener equipos propios.
+        </p>
+        <div class="hero__acciones">
+          <!-- Enlace a video en servicio de streaming -->
+          <a class="boton"
+             href="https://www.youtube.com/watch?v=xT75e-G1eak"
+             target="_blank" rel="noopener">
+            ▶ Ver video en YouTube
+          </a>
+          <a href="#que-es" class="boton boton--secundario">Saber más</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="que-es" class="seccion">
+      <div class="ancho dos-columnas">
+        <div>
+          <h2>¿Qué es la nube?</h2>
+          <p>
+            La computación en la nube es la entrega de recursos de cómputo bajo demanda
+            mediante internet. En lugar de instalar infraestructura física, se renta
+            capacidad a un proveedor y se paga solo por lo que se usa.
+          </p>
+          <p>
+            Este sitio es un ejemplo: está publicado en una plataforma de nube
+            y se ejecuta dentro de un contenedor.
+          </p>
+        </div>
+        <ul class="beneficios">
+          <li><strong>Escalabilidad</strong><span>Crece o reduce recursos según la demanda.</span></li>
+          <li><strong>Pago por uso</strong><span>Sin inversión inicial en hardware.</span></li>
+          <li><strong>Disponibilidad</strong><span>Accede desde cualquier lugar y dispositivo.</span></li>
+          <li><strong>Mantenimiento</strong><span>El proveedor administra la infraestructura.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="modelos" class="seccion seccion--alterna">
+      <div class="ancho">
+        <h2 class="centrado">Modelos de servicio</h2>
+        <div class="tarjetas">
+          <article class="tarjeta">
+            <span class="tarjeta__sigla">IaaS</span>
+            <h3>Infraestructura</h3>
+            <p>Servidores virtuales, redes y almacenamiento. Tú administras el sistema operativo y las apps.</p>
+          </article>
+          <article class="tarjeta">
+            <span class="tarjeta__sigla">PaaS</span>
+            <h3>Plataforma</h3>
+            <p>Un entorno listo para desplegar código sin preocuparte por los servidores.</p>
+          </article>
+          <article class="tarjeta">
+            <span class="tarjeta__sigla">SaaS</span>
+            <h3>Software</h3>
+            <p>Aplicaciones completas que usas desde el navegador, como correo o documentos en línea.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="seccion">
+      <div class="ancho angosto centrado">
+        <h2>¿Qué es la nube? En video</h2>
+        <p>Una explicación breve y visual de los conceptos principales.</p>
+        <div class="video">
+          <iframe
+                  src="https://www.youtube-nocookie.com/embed/xT75e-G1eak"
+                  title="Video: ¿Qué es la nube?"
+                  loading="lazy"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
+        <a class="boton"
+           href="https://www.youtube.com/watch?v=xT75e-G1eak"
+           target="_blank" rel="noopener">
+          ▶ Ver video en YouTube: ¿Qué es la nube?
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer con datos de identificación -->
+  <footer class="footer">
+    <div class="ancho footer__inner">
+      <div>
+          <span class="marca marca--clara">
+            <img src="img/logo.svg" alt="" class="logo">
+            <span>Mi Nube</span>
+          </span>
+      </div>
+      <dl class="footer__datos">
+        <div><dt>Curso</dt><dd>Conceptualización de servicios en la nube</dd></div>
+        <div><dt>Nombre</dt><dd>Rosa Cristal Cabrera Flores</dd></div>
+        <div><dt>Código</dt><dd>224791262</dd></div>
+        <div><dt>Correo</dt><dd><a href="mailto:rosa.cabrera9126@alumnos.udg.mx">rosa.cabrera9126@alumnos.udg.mx</a></dd></div>
+      </dl>
+    </div>
+    <p class="footer__copy">© 2026 Mi Nube · Universidad de Guadalajara</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
